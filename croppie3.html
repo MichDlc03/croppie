@@ -7,18 +7,15 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/croppie/2.6.5/croppie.min.css" integrity="sha512-zxBiDORGDEAYDdKLuYU9X/JaJo/DPzE42UubfBw9yg8Qvb2YRRIQ8v4KsGHOx2H1/+sdSXyXxLXv5r7tHc9ygg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-  <div class="  m-5 ">
-      <div class="col-3 p-2 ">
-        <div class="mb-3">
-          <input class="form-control" type="file" id="inputImagen">
-        </div>
-        <div class="card p-2">
-          <h6 class="text-center">Foto Recortada</h6>
-          <center><div id="uploaded_image" ></div></center>
-        </div>
-      </div>
-   
+<div class="m-5 ">
+  <div class="col-3 p-2 ">
+    <input class="form-control" type="file" id="inputImagen">
+    <div class="card m-2">
+    <h6 class="text-center p-2">Foto Recortada</h6>
+      <center><div id="uploaded_image" ></div></center>
+    </div>
   </div>
+</div>
   <div class="modal" id="myModal" tabindex="-1">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -28,11 +25,10 @@
         </div>
         <div class="modal-body m-auto  ">
           <div id="upload-demo" class="m-5 " style="width: 350px; margin: top 30px;"></div>
-         <center><div>
+        <center><div>
           <button id="rotateLeft" class="btn btn-outline-dark">Rotar</button>
           <!-- <button id="rotateRight"  class="btn btn-outline-dark">Rotar a la derecha</button> -->
-         </div></center>
-    
+        </div></center>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
